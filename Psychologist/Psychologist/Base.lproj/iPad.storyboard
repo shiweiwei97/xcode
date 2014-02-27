@@ -159,7 +159,7 @@
         <!--Psychologist View Controller - Dr. Pill-->
         <scene sceneID="Hyo-1h-LTO">
             <objects>
-                <viewController id="St3-Ac-a0P" customClass="PsychologistViewController" sceneMemberID="viewController">
+                <viewController title="Dr. Pill" id="St3-Ac-a0P" customClass="PsychologistViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SYN-Vo-Rnt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="852"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
