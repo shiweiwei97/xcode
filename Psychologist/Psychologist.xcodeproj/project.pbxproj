@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED07427918BF80BD00977716 /* PsychologistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE4737A18B8E8C300CC6204 /* PsychologistViewController.m */; };
 		ED8C035A18BE214D00538EF8 /* RotatableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8C035918BE214D00538EF8 /* RotatableViewController.m */; };
 		ED8C035E18BE28A500538EF8 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8C035C18BE28A500538EF8 /* iPad.storyboard */; };
 		EDE4736518B8E8C300CC6204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE4736418B8E8C300CC6204 /* Foundation.framework */; };
@@ -16,7 +17,6 @@
 		EDE4737118B8E8C300CC6204 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE4737018B8E8C300CC6204 /* main.m */; };
 		EDE4737518B8E8C300CC6204 /* PsychologistAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE4737418B8E8C300CC6204 /* PsychologistAppDelegate.m */; };
 		EDE4737818B8E8C300CC6204 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE4737618B8E8C300CC6204 /* iPhone.storyboard */; };
-		EDE4737B18B8E8C300CC6204 /* PsychologistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE4737A18B8E8C300CC6204 /* PsychologistViewController.m */; };
 		EDE4737D18B8E8C300CC6204 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE4737C18B8E8C300CC6204 /* Images.xcassets */; };
 		EDE4738418B8E8C300CC6204 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE4738318B8E8C300CC6204 /* XCTest.framework */; };
 		EDE4738518B8E8C300CC6204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE4736418B8E8C300CC6204 /* Foundation.framework */; };
@@ -281,7 +281,7 @@
 			files = (
 				EDE4737518B8E8C300CC6204 /* PsychologistAppDelegate.m in Sources */,
 				EDE4737118B8E8C300CC6204 /* main.m in Sources */,
-				EDE4737B18B8E8C300CC6204 /* PsychologistViewController.m in Sources */,
+				ED07427918BF80BD00977716 /* PsychologistViewController.m in Sources */,
 				EDE4739D18B8EFDB00CC6204 /* FaceView.m in Sources */,
 				EDE4739E18B8EFDB00CC6204 /* HappinessViewController.m in Sources */,
 				ED8C035A18BE214D00538EF8 /* RotatableViewController.m in Sources */,

@@ -23,15 +23,30 @@
 @synthesize splitViewBarButtonItem = _splitViewBarButtonItem;
 @synthesize toolbar = _toolbar;
 
+// Puts the splitViewBarButton in our toolbar (and/or removes the old one).
+// Must be called when our splitViewBarButtonItem property changes
+//  (and also after our view has been loaded from the storyboard (viewDidLoad)).
+
+- (void)handleSplitViewBarButtonItem:(UIBarButtonItem *)splitViewBarButtonItem
+{
+    NSMutableArray *toolbarItems = [self.toolbar.items mutableCopy];
+    if (_splitViewBarButtonItem) [toolbarItems removeObject:_splitViewBarButtonItem];
+    if (splitViewBarButtonItem) [toolbarItems insertObject:splitViewBarButtonItem atIndex:0];
+    self.toolbar.items = toolbarItems;
+    _splitViewBarButtonItem = splitViewBarButtonItem;
+}
+
 - (void)setSplitViewBarButtonItem:(UIBarButtonItem *)splitViewBarButtonItem
 {
-    if (_splitViewBarButtonItem != splitViewBarButtonItem) {
-        NSMutableArray *toolbarItems = [self.toolbar.items mutableCopy];
-        if (_splitViewBarButtonItem) [toolbarItems removeObject:_splitViewBarButtonItem];
-        if (splitViewBarButtonItem) [toolbarItems insertObject:splitViewBarButtonItem atIndex:0];
-        self.toolbar.items = toolbarItems;
-        _splitViewBarButtonItem = splitViewBarButtonItem;
+    if (splitViewBarButtonItem != _splitViewBarButtonItem) {
+        [self handleSplitViewBarButtonItem:splitViewBarButtonItem];
     }
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [self handleSplitViewBarButtonItem:self.splitViewBarButtonItem];
 }
 
 - (void) setHappiness:(int)happiness
