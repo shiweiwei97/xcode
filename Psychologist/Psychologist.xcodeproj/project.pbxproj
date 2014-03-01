@@ -25,6 +25,7 @@
 		EDE4739018B8E8C300CC6204 /* PsychologistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE4738F18B8E8C300CC6204 /* PsychologistTests.m */; };
 		EDE4739D18B8EFDB00CC6204 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE4739A18B8EFDB00CC6204 /* FaceView.m */; };
 		EDE4739E18B8EFDB00CC6204 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE4739C18B8EFDB00CC6204 /* HappinessViewController.m */; };
+		EDFCDD7018C1FB0700666352 /* DrPillWebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFCDD6F18C1FB0700666352 /* DrPillWebsiteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		EDE4739A18B8EFDB00CC6204 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 		EDE4739B18B8EFDB00CC6204 /* HappinessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
 		EDE4739C18B8EFDB00CC6204 /* HappinessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
+		EDFCDD6E18C1FB0700666352 /* DrPillWebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrPillWebsiteViewController.h; sourceTree = "<group>"; };
+		EDFCDD6F18C1FB0700666352 /* DrPillWebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrPillWebsiteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				EDE4737418B8E8C300CC6204 /* PsychologistAppDelegate.m */,
 				EDE4737618B8E8C300CC6204 /* iPhone.storyboard */,
 				ED8C035C18BE28A500538EF8 /* iPad.storyboard */,
+				EDFCDD6E18C1FB0700666352 /* DrPillWebsiteViewController.h */,
+				EDFCDD6F18C1FB0700666352 /* DrPillWebsiteViewController.m */,
 				ED8C035818BE214D00538EF8 /* RotatableViewController.h */,
 				ED8C035918BE214D00538EF8 /* RotatableViewController.m */,
 				ED8C035F18BE359A00538EF8 /* SplitViewBarButtonItemPresenter.h */,
@@ -282,6 +287,7 @@
 				EDE4737518B8E8C300CC6204 /* PsychologistAppDelegate.m in Sources */,
 				EDE4737118B8E8C300CC6204 /* main.m in Sources */,
 				ED07427918BF80BD00977716 /* PsychologistViewController.m in Sources */,
+				EDFCDD7018C1FB0700666352 /* DrPillWebsiteViewController.m in Sources */,
 				EDE4739D18B8EFDB00CC6204 /* FaceView.m in Sources */,
 				EDE4739E18B8EFDB00CC6204 /* HappinessViewController.m in Sources */,
 				ED8C035A18BE214D00538EF8 /* RotatableViewController.m in Sources */,
