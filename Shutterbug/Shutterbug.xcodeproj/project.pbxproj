@@ -15,7 +15,6 @@
 		ED2DE02218C8AD4200595981 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2DE02118C8AD4200595981 /* AppDelegate.m */; };
 		ED2DE02518C8AD4200595981 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2DE02318C8AD4200595981 /* Main_iPhone.storyboard */; };
 		ED2DE02818C8AD4200595981 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2DE02618C8AD4200595981 /* Main_iPad.storyboard */; };
-		ED2DE02B18C8AD4200595981 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2DE02A18C8AD4200595981 /* ViewController.m */; };
 		ED2DE02D18C8AD4200595981 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED2DE02C18C8AD4200595981 /* Images.xcassets */; };
 		ED2DE03418C8AD4200595981 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2DE03318C8AD4200595981 /* XCTest.framework */; };
 		ED2DE03518C8AD4200595981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2DE01118C8AD4200595981 /* Foundation.framework */; };
@@ -47,8 +46,6 @@
 		ED2DE02118C8AD4200595981 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ED2DE02418C8AD4200595981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		ED2DE02718C8AD4200595981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		ED2DE02918C8AD4200595981 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ED2DE02A18C8AD4200595981 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ED2DE02C18C8AD4200595981 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ED2DE03218C8AD4200595981 /* ShutterbugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShutterbugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED2DE03318C8AD4200595981 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -114,12 +111,8 @@
 		ED2DE01718C8AD4200595981 /* Shutterbug */ = {
 			isa = PBXGroup;
 			children = (
-				ED2DE02018C8AD4200595981 /* AppDelegate.h */,
-				ED2DE02118C8AD4200595981 /* AppDelegate.m */,
 				ED2DE02318C8AD4200595981 /* Main_iPhone.storyboard */,
 				ED2DE02618C8AD4200595981 /* Main_iPad.storyboard */,
-				ED2DE02918C8AD4200595981 /* ViewController.h */,
-				ED2DE02A18C8AD4200595981 /* ViewController.m */,
 				ED2DE02C18C8AD4200595981 /* Images.xcassets */,
 				ED2DE01818C8AD4200595981 /* Supporting Files */,
 			);
@@ -129,6 +122,8 @@
 		ED2DE01818C8AD4200595981 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ED2DE02018C8AD4200595981 /* AppDelegate.h */,
+				ED2DE02118C8AD4200595981 /* AppDelegate.m */,
 				ED2DE01918C8AD4200595981 /* Shutterbug-Info.plist */,
 				ED2DE01A18C8AD4200595981 /* InfoPlist.strings */,
 				ED2DE01D18C8AD4200595981 /* main.m */,
@@ -253,7 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2DE02B18C8AD4200595981 /* ViewController.m in Sources */,
 				ED2DE02218C8AD4200595981 /* AppDelegate.m in Sources */,
 				ED2DE01E18C8AD4200595981 /* main.m in Sources */,
 			);
