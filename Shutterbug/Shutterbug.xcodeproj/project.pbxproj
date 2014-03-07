@@ -21,6 +21,8 @@
 		ED2DE03618C8AD4200595981 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2DE01518C8AD4200595981 /* UIKit.framework */; };
 		ED2DE03E18C8AD4200595981 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED2DE03C18C8AD4200595981 /* InfoPlist.strings */; };
 		ED2DE04018C8AD4200595981 /* ShutterbugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2DE03F18C8AD4200595981 /* ShutterbugTests.m */; };
+		ED2DE04B18C8AEBC00595981 /* FlickrPhotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2DE04A18C8AEBC00595981 /* FlickrPhotoTableViewController.m */; };
+		ED2DE04F18C8B1BC00595981 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2DE04E18C8B1BC00595981 /* FlickrFetcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,11 @@
 		ED2DE03B18C8AD4200595981 /* ShutterbugTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShutterbugTests-Info.plist"; sourceTree = "<group>"; };
 		ED2DE03D18C8AD4200595981 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ED2DE03F18C8AD4200595981 /* ShutterbugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShutterbugTests.m; sourceTree = "<group>"; };
+		ED2DE04918C8AEBC00595981 /* FlickrPhotoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoTableViewController.h; sourceTree = "<group>"; };
+		ED2DE04A18C8AEBC00595981 /* FlickrPhotoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoTableViewController.m; sourceTree = "<group>"; };
+		ED2DE04C18C8B1BC00595981 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		ED2DE04D18C8B1BC00595981 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		ED2DE04E18C8B1BC00595981 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +120,11 @@
 			children = (
 				ED2DE02318C8AD4200595981 /* Main_iPhone.storyboard */,
 				ED2DE02618C8AD4200595981 /* Main_iPad.storyboard */,
+				ED2DE04918C8AEBC00595981 /* FlickrPhotoTableViewController.h */,
+				ED2DE04A18C8AEBC00595981 /* FlickrPhotoTableViewController.m */,
+				ED2DE04C18C8B1BC00595981 /* FlickrAPIKey.h */,
+				ED2DE04D18C8B1BC00595981 /* FlickrFetcher.h */,
+				ED2DE04E18C8B1BC00595981 /* FlickrFetcher.m */,
 				ED2DE02C18C8AD4200595981 /* Images.xcassets */,
 				ED2DE01818C8AD4200595981 /* Supporting Files */,
 			);
@@ -248,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2DE04B18C8AEBC00595981 /* FlickrPhotoTableViewController.m in Sources */,
 				ED2DE02218C8AD4200595981 /* AppDelegate.m in Sources */,
+				ED2DE04F18C8B1BC00595981 /* FlickrFetcher.m in Sources */,
 				ED2DE01E18C8AD4200595981 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
