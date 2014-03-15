@@ -23,6 +23,10 @@
 		ED2DE04018C8AD4200595981 /* ShutterbugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2DE03F18C8AD4200595981 /* ShutterbugTests.m */; };
 		ED2DE04B18C8AEBC00595981 /* FlickrPhotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2DE04A18C8AEBC00595981 /* FlickrPhotoTableViewController.m */; };
 		ED2DE04F18C8B1BC00595981 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2DE04E18C8B1BC00595981 /* FlickrFetcher.m */; };
+		EDA3BE6718D1DCA300C46636 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA3BE6618D1DCA300C46636 /* MapViewController.m */; };
+		EDA3BE6918D1DDA300C46636 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA3BE6818D1DDA300C46636 /* MapKit.framework */; };
+		EDA3BE6B18D1DDC300C46636 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA3BE6A18D1DDC300C46636 /* CoreLocation.framework */; };
+		EDA3BE6E18D1E5D800C46636 /* FlickrPhotoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA3BE6D18D1E5D800C46636 /* FlickrPhotoAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,12 @@
 		ED2DE04C18C8B1BC00595981 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
 		ED2DE04D18C8B1BC00595981 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
 		ED2DE04E18C8B1BC00595981 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		EDA3BE6518D1DCA300C46636 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EDA3BE6618D1DCA300C46636 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		EDA3BE6818D1DDA300C46636 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EDA3BE6A18D1DDC300C46636 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EDA3BE6C18D1E5D800C46636 /* FlickrPhotoAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoAnnotation.h; sourceTree = "<group>"; };
+		EDA3BE6D18D1E5D800C46636 /* FlickrPhotoAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDA3BE6B18D1DDC300C46636 /* CoreLocation.framework in Frameworks */,
+				EDA3BE6918D1DDA300C46636 /* MapKit.framework in Frameworks */,
 				ED2DE01418C8AD4200595981 /* CoreGraphics.framework in Frameworks */,
 				ED2DE01618C8AD4200595981 /* UIKit.framework in Frameworks */,
 				ED2DE01218C8AD4200595981 /* Foundation.framework in Frameworks */,
@@ -107,6 +119,8 @@
 		ED2DE01018C8AD4200595981 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EDA3BE6A18D1DDC300C46636 /* CoreLocation.framework */,
+				EDA3BE6818D1DDA300C46636 /* MapKit.framework */,
 				ED2DE01118C8AD4200595981 /* Foundation.framework */,
 				ED2DE01318C8AD4200595981 /* CoreGraphics.framework */,
 				ED2DE01518C8AD4200595981 /* UIKit.framework */,
@@ -120,8 +134,12 @@
 			children = (
 				ED2DE02318C8AD4200595981 /* Main_iPhone.storyboard */,
 				ED2DE02618C8AD4200595981 /* Main_iPad.storyboard */,
+				EDA3BE6518D1DCA300C46636 /* MapViewController.h */,
+				EDA3BE6618D1DCA300C46636 /* MapViewController.m */,
 				ED2DE04918C8AEBC00595981 /* FlickrPhotoTableViewController.h */,
 				ED2DE04A18C8AEBC00595981 /* FlickrPhotoTableViewController.m */,
+				EDA3BE6C18D1E5D800C46636 /* FlickrPhotoAnnotation.h */,
+				EDA3BE6D18D1E5D800C46636 /* FlickrPhotoAnnotation.m */,
 				ED2DE04C18C8B1BC00595981 /* FlickrAPIKey.h */,
 				ED2DE04D18C8B1BC00595981 /* FlickrFetcher.h */,
 				ED2DE04E18C8B1BC00595981 /* FlickrFetcher.m */,
@@ -206,7 +224,7 @@
 		ED2DE00618C8AD4000595981 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = weiwei;
 				TargetAttributes = {
 					ED2DE03118C8AD4200595981 = {
@@ -262,7 +280,9 @@
 			files = (
 				ED2DE04B18C8AEBC00595981 /* FlickrPhotoTableViewController.m in Sources */,
 				ED2DE02218C8AD4200595981 /* AppDelegate.m in Sources */,
+				EDA3BE6718D1DCA300C46636 /* MapViewController.m in Sources */,
 				ED2DE04F18C8B1BC00595981 /* FlickrFetcher.m in Sources */,
+				EDA3BE6E18D1E5D800C46636 /* FlickrPhotoAnnotation.m in Sources */,
 				ED2DE01E18C8AD4200595981 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,7 +345,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -365,7 +384,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -424,7 +442,6 @@
 		ED2DE04718C8AD4200595981 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Shutterbug.app/Shutterbug";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -447,7 +464,6 @@
 		ED2DE04818C8AD4200595981 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Shutterbug.app/Shutterbug";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -482,6 +498,7 @@
 				ED2DE04518C8AD4200595981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED2DE04618C8AD4200595981 /* Build configuration list for PBXNativeTarget "ShutterbugTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +507,7 @@
 				ED2DE04818C8AD4200595981 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

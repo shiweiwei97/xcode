@@ -8,8 +8,10 @@
 
 #import "FlickrPhotoTableViewController.h"
 #import "FlickrFetcher.h"
+#import "MapViewController.h"
+#import "FlickrPhotoAnnotation.h"
 
-@interface FlickrPhotoTableViewController ()
+@interface FlickrPhotoTableViewController () <MapViewControllerDelegate>
 
 @end
 
@@ -33,10 +35,33 @@
     });
 }
 
+- (NSArray *)mapAnnotations
+{
+    NSMutableArray *annotations = [NSMutableArray arrayWithCapacity:[self.photos count]];
+    for (NSDictionary *photo in self.photos) {
+        [annotations addObject:[FlickrPhotoAnnotation annotationForPhoto:photo]];
+    }
+    
+    return annotations;
+}
+
+- (void) updateSplitViewDetail
+{
+    id detail = [self.splitViewController.viewControllers lastObject];
+    if ([detail isKindOfClass:[MapViewController class]]) {
+        MapViewController *mapVC = (MapViewController *)detail;
+        mapVC.delegate = self;
+        mapVC.annotations = [self mapAnnotations];
+    }
+}
+
 - (void)setPhotos:(NSArray *)photos
 {
     if (_photos != photos) {
         _photos = photos;
+        
+        [self updateSplitViewDetail];
+        
         if (self.tableView.window)[self.tableView reloadData];
     }
 }
@@ -44,6 +69,15 @@
 - (BOOL)shouldAutorotate
 {
     return YES;
+}
+
+- (UIImage *)mapViewController:(MapViewController *)sender imageForAnnotation:(id<MKAnnotation>)annotation
+{
+    FlickrPhotoAnnotation *fpa = (FlickrPhotoAnnotation *)annotation;
+    NSURL *url = [FlickrFetcher urlForPhoto:fpa.photo format:FlickrPhotoFormatSquare];
+    NSData *data = [NSData dataWithContentsOfURL:url];
+    
+    return data? [UIImage imageWithData:data]: nil;
 }
 
 #pragma mark - Table view data source
