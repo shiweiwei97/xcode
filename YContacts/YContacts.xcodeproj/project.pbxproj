@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED10ABED1903740B007DA250 /* YCScanContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED10ABEC1903740B007DA250 /* YCScanContactViewController.m */; };
+		ED10ABEF19037865007DA250 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED10ABEE19037865007DA250 /* beep.mp3 */; };
+		ED10ABF21903945B007DA250 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED10ABF01903945B007DA250 /* AddressBook.framework */; };
+		ED10ABF31903945B007DA250 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED10ABF11903945B007DA250 /* AddressBookUI.framework */; };
+		ED10ABF61903981C007DA250 /* YCMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED10ABF51903981C007DA250 /* YCMenuTableViewController.m */; };
+		ED10ABF8190398EE007DA250 /* Menu.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED10ABF7190398EE007DA250 /* Menu.plist */; };
+		EDB0B58E190370B400959923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB0B58D190370B400959923 /* Foundation.framework */; };
+		EDB0B590190370B400959923 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB0B58F190370B400959923 /* CoreGraphics.framework */; };
+		EDB0B592190370B400959923 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB0B591190370B400959923 /* UIKit.framework */; };
+		EDB0B598190370B400959923 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB0B596190370B400959923 /* InfoPlist.strings */; };
+		EDB0B59A190370B400959923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB0B599190370B400959923 /* main.m */; };
+		EDB0B59E190370B400959923 /* YCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB0B59D190370B400959923 /* YCAppDelegate.m */; };
+		EDB0B5A1190370B400959923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB0B59F190370B400959923 /* Main.storyboard */; };
+		EDB0B5A6190370B400959923 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB0B5A5190370B400959923 /* Images.xcassets */; };
+		EDB0B5AD190370B400959923 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB0B5AC190370B400959923 /* XCTest.framework */; };
+		EDB0B5AE190370B400959923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB0B58D190370B400959923 /* Foundation.framework */; };
+		EDB0B5AF190370B400959923 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB0B591190370B400959923 /* UIKit.framework */; };
+		EDB0B5B7190370B400959923 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDB0B5B5190370B400959923 /* InfoPlist.strings */; };
+		EDB0B5B9190370B500959923 /* YContactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB0B5B8190370B500959923 /* YContactsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDB0B5B0190370B400959923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDB0B582190370B400959923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDB0B589190370B400959923;
+			remoteInfo = YContacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED10ABEB1903740B007DA250 /* YCScanContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCScanContactViewController.h; sourceTree = "<group>"; };
+		ED10ABEC1903740B007DA250 /* YCScanContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCScanContactViewController.m; sourceTree = "<group>"; };
+		ED10ABEE19037865007DA250 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		ED10ABF01903945B007DA250 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		ED10ABF11903945B007DA250 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		ED10ABF41903981C007DA250 /* YCMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCMenuTableViewController.h; sourceTree = "<group>"; };
+		ED10ABF51903981C007DA250 /* YCMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCMenuTableViewController.m; sourceTree = "<group>"; };
+		ED10ABF7190398EE007DA250 /* Menu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Menu.plist; sourceTree = "<group>"; };
+		EDB0B58A190370B400959923 /* YContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB0B58D190370B400959923 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDB0B58F190370B400959923 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDB0B591190370B400959923 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDB0B595190370B400959923 /* YContacts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YContacts-Info.plist"; sourceTree = "<group>"; };
+		EDB0B597190370B400959923 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDB0B599190370B400959923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDB0B59B190370B400959923 /* YContacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YContacts-Prefix.pch"; sourceTree = "<group>"; };
+		EDB0B59C190370B400959923 /* YCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCAppDelegate.h; sourceTree = "<group>"; };
+		EDB0B59D190370B400959923 /* YCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCAppDelegate.m; sourceTree = "<group>"; };
+		EDB0B5A0190370B400959923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDB0B5A5190370B400959923 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDB0B5AB190370B400959923 /* YContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB0B5AC190370B400959923 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EDB0B5B4190370B400959923 /* YContactsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YContactsTests-Info.plist"; sourceTree = "<group>"; };
+		EDB0B5B6190370B400959923 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDB0B5B8190370B500959923 /* YContactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YContactsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDB0B587190370B400959923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED10ABF21903945B007DA250 /* AddressBook.framework in Frameworks */,
+				ED10ABF31903945B007DA250 /* AddressBookUI.framework in Frameworks */,
+				EDB0B590190370B400959923 /* CoreGraphics.framework in Frameworks */,
+				EDB0B592190370B400959923 /* UIKit.framework in Frameworks */,
+				EDB0B58E190370B400959923 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB0B5A8190370B400959923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB0B5AD190370B400959923 /* XCTest.framework in Frameworks */,
+				EDB0B5AF190370B400959923 /* UIKit.framework in Frameworks */,
+				EDB0B5AE190370B400959923 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED10ABF919039901007DA250 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED10ABEE19037865007DA250 /* beep.mp3 */,
+				ED10ABF7190398EE007DA250 /* Menu.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EDB0B581190370B400959923 = {
+			isa = PBXGroup;
+			children = (
+				EDB0B593190370B400959923 /* YContacts */,
+				EDB0B5B2190370B400959923 /* YContactsTests */,
+				EDB0B58C190370B400959923 /* Frameworks */,
+				EDB0B58B190370B400959923 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDB0B58B190370B400959923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDB0B58A190370B400959923 /* YContacts.app */,
+				EDB0B5AB190370B400959923 /* YContactsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDB0B58C190370B400959923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED10ABF01903945B007DA250 /* AddressBook.framework */,
+				ED10ABF11903945B007DA250 /* AddressBookUI.framework */,
+				EDB0B58D190370B400959923 /* Foundation.framework */,
+				EDB0B58F190370B400959923 /* CoreGraphics.framework */,
+				EDB0B591190370B400959923 /* UIKit.framework */,
+				EDB0B5AC190370B400959923 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDB0B593190370B400959923 /* YContacts */ = {
+			isa = PBXGroup;
+			children = (
+				EDB0B59F190370B400959923 /* Main.storyboard */,
+				ED10ABF41903981C007DA250 /* YCMenuTableViewController.h */,
+				ED10ABF51903981C007DA250 /* YCMenuTableViewController.m */,
+				ED10ABEB1903740B007DA250 /* YCScanContactViewController.h */,
+				ED10ABEC1903740B007DA250 /* YCScanContactViewController.m */,
+				EDB0B5A5190370B400959923 /* Images.xcassets */,
+				ED10ABF919039901007DA250 /* Resources */,
+				EDB0B594190370B400959923 /* Supporting Files */,
+			);
+			path = YContacts;
+			sourceTree = "<group>";
+		};
+		EDB0B594190370B400959923 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB0B59C190370B400959923 /* YCAppDelegate.h */,
+				EDB0B59D190370B400959923 /* YCAppDelegate.m */,
+				EDB0B595190370B400959923 /* YContacts-Info.plist */,
+				EDB0B596190370B400959923 /* InfoPlist.strings */,
+				EDB0B599190370B400959923 /* main.m */,
+				EDB0B59B190370B400959923 /* YContacts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDB0B5B2190370B400959923 /* YContactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB0B5B8190370B500959923 /* YContactsTests.m */,
+				EDB0B5B3190370B400959923 /* Supporting Files */,
+			);
+			path = YContactsTests;
+			sourceTree = "<group>";
+		};
+		EDB0B5B3190370B400959923 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDB0B5B4190370B400959923 /* YContactsTests-Info.plist */,
+				EDB0B5B5190370B400959923 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDB0B589190370B400959923 /* YContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB0B5BC190370B500959923 /* Build configuration list for PBXNativeTarget "YContacts" */;
+			buildPhases = (
+				EDB0B586190370B400959923 /* Sources */,
+				EDB0B587190370B400959923 /* Frameworks */,
+				EDB0B588190370B400959923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YContacts;
+			productName = YContacts;
+			productReference = EDB0B58A190370B400959923 /* YContacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDB0B5AA190370B400959923 /* YContactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB0B5BF190370B500959923 /* Build configuration list for PBXNativeTarget "YContactsTests" */;
+			buildPhases = (
+				EDB0B5A7190370B400959923 /* Sources */,
+				EDB0B5A8190370B400959923 /* Frameworks */,
+				EDB0B5A9190370B400959923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB0B5B1190370B400959923 /* PBXTargetDependency */,
+			);
+			name = YContactsTests;
+			productName = YContactsTests;
+			productReference = EDB0B5AB190370B400959923 /* YContactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDB0B582190370B400959923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = weiwei;
+				TargetAttributes = {
+					EDB0B5AA190370B400959923 = {
+						TestTargetID = EDB0B589190370B400959923;
+					};
+				};
+			};
+			buildConfigurationList = EDB0B585190370B400959923 /* Build configuration list for PBXProject "YContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDB0B581190370B400959923;
+			productRefGroup = EDB0B58B190370B400959923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDB0B589190370B400959923 /* YContacts */,
+				EDB0B5AA190370B400959923 /* YContactsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDB0B588190370B400959923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB0B5A6190370B400959923 /* Images.xcassets in Resources */,
+				EDB0B598190370B400959923 /* InfoPlist.strings in Resources */,
+				ED10ABEF19037865007DA250 /* beep.mp3 in Resources */,
+				EDB0B5A1190370B400959923 /* Main.storyboard in Resources */,
+				ED10ABF8190398EE007DA250 /* Menu.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB0B5A9190370B400959923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB0B5B7190370B400959923 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDB0B586190370B400959923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED10ABED1903740B007DA250 /* YCScanContactViewController.m in Sources */,
+				ED10ABF61903981C007DA250 /* YCMenuTableViewController.m in Sources */,
+				EDB0B59E190370B400959923 /* YCAppDelegate.m in Sources */,
+				EDB0B59A190370B400959923 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB0B5A7190370B400959923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB0B5B9190370B500959923 /* YContactsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDB0B5B1190370B400959923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDB0B589190370B400959923 /* YContacts */;
+			targetProxy = EDB0B5B0190370B400959923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDB0B596190370B400959923 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB0B597190370B400959923 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDB0B59F190370B400959923 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB0B5A0190370B400959923 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDB0B5B5190370B400959923 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDB0B5B6190370B400959923 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDB0B5BA190370B500959923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDB0B5BB190370B500959923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDB0B5BD190370B500959923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YContacts/YContacts-Prefix.pch";
+				INFOPLIST_FILE = "YContacts/YContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDB0B5BE190370B500959923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YContacts/YContacts-Prefix.pch";
+				INFOPLIST_FILE = "YContacts/YContacts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EDB0B5C0190370B500959923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YContacts.app/YContacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YContacts/YContacts-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YContactsTests/YContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EDB0B5C1190370B500959923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YContacts.app/YContacts";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YContacts/YContacts-Prefix.pch";
+				INFOPLIST_FILE = "YContactsTests/YContactsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDB0B585190370B400959923 /* Build configuration list for PBXProject "YContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB0B5BA190370B500959923 /* Debug */,
+				EDB0B5BB190370B500959923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB0B5BC190370B500959923 /* Build configuration list for PBXNativeTarget "YContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB0B5BD190370B500959923 /* Debug */,
+				EDB0B5BE190370B500959923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB0B5BF190370B500959923 /* Build configuration list for PBXNativeTarget "YContactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB0B5C0190370B500959923 /* Debug */,
+				EDB0B5C1190370B500959923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDB0B582190370B400959923 /* Project object */;
+}
