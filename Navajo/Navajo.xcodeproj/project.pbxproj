@@ -1,1080 +1,830 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0B67F51AFB1A4862A599B2FB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1F60E6B58D8B46CCB055F048</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1F60E6B58D8B46CCB055F048</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>78749E40B15B4B26BC87634D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>D89CAA5AFF0544B7A16E667C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>EDC6DD3D1941E28F00AA03EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EDC6DD4F1941E28F00AA03EE</string>
-				<string>EDC6DD6E1941E28F00AA03EE</string>
-				<string>EDC6DD481941E28F00AA03EE</string>
-				<string>EDC6DD471941E28F00AA03EE</string>
-				<string>F0B2FDA46E8F419880D3E826</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD3E1941E28F00AA03EE</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>NV</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>weiwei</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>EDC6DD661941E28F00AA03EE</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>EDC6DD451941E28F00AA03EE</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>EDC6DD411941E28F00AA03EE</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>EDC6DD3D1941E28F00AA03EE</string>
-			<key>productRefGroup</key>
-			<string>EDC6DD471941E28F00AA03EE</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>EDC6DD451941E28F00AA03EE</string>
-				<string>EDC6DD661941E28F00AA03EE</string>
-			</array>
-		</dict>
-		<key>EDC6DD411941E28F00AA03EE</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EDC6DD761941E28F00AA03EE</string>
-				<string>EDC6DD771941E28F00AA03EE</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EDC6DD421941E28F00AA03EE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EDC6DD601941E28F00AA03EE</string>
-				<string>EDC6DD5A1941E28F00AA03EE</string>
-				<string>EDC6DD561941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EDC6DD431941E28F00AA03EE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EDC6DD4C1941E28F00AA03EE</string>
-				<string>EDC6DD4E1941E28F00AA03EE</string>
-				<string>EDC6DD4A1941E28F00AA03EE</string>
-				<string>0B67F51AFB1A4862A599B2FB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EDC6DD441941E28F00AA03EE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EDC6DD621941E28F00AA03EE</string>
-				<string>EDC6DD541941E28F00AA03EE</string>
-				<string>EDC6DD5D1941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EDC6DD451941E28F00AA03EE</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EDC6DD781941E28F00AA03EE</string>
-			<key>buildPhases</key>
-			<array>
-				<string>78749E40B15B4B26BC87634D</string>
-				<string>EDC6DD421941E28F00AA03EE</string>
-				<string>EDC6DD431941E28F00AA03EE</string>
-				<string>EDC6DD441941E28F00AA03EE</string>
-				<string>D89CAA5AFF0544B7A16E667C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Navajo</string>
-			<key>productName</key>
-			<string>Navajo</string>
-			<key>productReference</key>
-			<string>EDC6DD461941E28F00AA03EE</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>EDC6DD461941E28F00AA03EE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Navajo.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EDC6DD471941E28F00AA03EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EDC6DD461941E28F00AA03EE</string>
-				<string>EDC6DD671941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD481941E28F00AA03EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EDC6DD491941E28F00AA03EE</string>
-				<string>EDC6DD4B1941E28F00AA03EE</string>
-				<string>EDC6DD4D1941E28F00AA03EE</string>
-				<string>EDC6DD681941E28F00AA03EE</string>
-				<string>1F60E6B58D8B46CCB055F048</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD491941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>EDC6DD4A1941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD491941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD4B1941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>EDC6DD4C1941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD4B1941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD4D1941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>EDC6DD4E1941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD4D1941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD4F1941E28F00AA03EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EDC6DD581941E28F00AA03EE</string>
-				<string>EDC6DD591941E28F00AA03EE</string>
-				<string>EDC6DD5B1941E28F00AA03EE</string>
-				<string>EDC6DD5E1941E28F00AA03EE</string>
-				<string>EDC6DD5F1941E28F00AA03EE</string>
-				<string>EDC6DD611941E28F00AA03EE</string>
-				<string>EDC6DD501941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Navajo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD501941E28F00AA03EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EDC6DD511941E28F00AA03EE</string>
-				<string>EDC6DD521941E28F00AA03EE</string>
-				<string>EDC6DD551941E28F00AA03EE</string>
-				<string>EDC6DD571941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD511941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Navajo-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD521941E28F00AA03EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EDC6DD531941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD531941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD541941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD521941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD551941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD561941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD551941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD571941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Navajo-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD581941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NVAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD591941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NVAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD5A1941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD591941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD5B1941E28F00AA03EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EDC6DD5C1941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD5C1941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD5D1941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD5B1941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD5E1941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NVViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD5F1941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NVViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD601941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD5F1941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD611941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD621941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD611941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD631941E28F00AA03EE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EDC6DD751941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EDC6DD641941E28F00AA03EE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EDC6DD691941E28F00AA03EE</string>
-				<string>EDC6DD6B1941E28F00AA03EE</string>
-				<string>EDC6DD6A1941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EDC6DD651941E28F00AA03EE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EDC6DD731941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EDC6DD661941E28F00AA03EE</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EDC6DD7B1941E28F00AA03EE</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EDC6DD631941E28F00AA03EE</string>
-				<string>EDC6DD641941E28F00AA03EE</string>
-				<string>EDC6DD651941E28F00AA03EE</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>EDC6DD6D1941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>NavajoTests</string>
-			<key>productName</key>
-			<string>NavajoTests</string>
-			<key>productReference</key>
-			<string>EDC6DD671941E28F00AA03EE</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>EDC6DD671941E28F00AA03EE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>NavajoTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EDC6DD681941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>EDC6DD691941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD681941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD6A1941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD491941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD6B1941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD4D1941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD6C1941E28F00AA03EE</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>EDC6DD3E1941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>EDC6DD451941E28F00AA03EE</string>
-			<key>remoteInfo</key>
-			<string>Navajo</string>
-		</dict>
-		<key>EDC6DD6D1941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>EDC6DD451941E28F00AA03EE</string>
-			<key>targetProxy</key>
-			<string>EDC6DD6C1941E28F00AA03EE</string>
-		</dict>
-		<key>EDC6DD6E1941E28F00AA03EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EDC6DD741941E28F00AA03EE</string>
-				<string>EDC6DD6F1941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>NavajoTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD6F1941E28F00AA03EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EDC6DD701941E28F00AA03EE</string>
-				<string>EDC6DD711941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD701941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>NavajoTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD711941E28F00AA03EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EDC6DD721941E28F00AA03EE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD721941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD731941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD711941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD741941E28F00AA03EE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NavajoTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDC6DD751941E28F00AA03EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDC6DD741941E28F00AA03EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDC6DD761941E28F00AA03EE</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EDC6DD771941E28F00AA03EE</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EDC6DD781941E28F00AA03EE</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EDC6DD791941E28F00AA03EE</string>
-				<string>EDC6DD7A1941E28F00AA03EE</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EDC6DD791941E28F00AA03EE</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F0B2FDA46E8F419880D3E826</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Navajo/Navajo-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Navajo/Navajo-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EDC6DD7A1941E28F00AA03EE</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F0B2FDA46E8F419880D3E826</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Navajo/Navajo-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Navajo/Navajo-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EDC6DD7B1941E28F00AA03EE</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EDC6DD7C1941E28F00AA03EE</string>
-				<string>EDC6DD7D1941E28F00AA03EE</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EDC6DD7C1941E28F00AA03EE</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Navajo.app/Navajo</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Navajo/Navajo-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>NavajoTests/NavajoTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EDC6DD7D1941E28F00AA03EE</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Navajo.app/Navajo</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Navajo/Navajo-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>NavajoTests/NavajoTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>F0B2FDA46E8F419880D3E826</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>EDC6DD3E1941E28F00AA03EE</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B67F51AFB1A4862A599B2FB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F60E6B58D8B46CCB055F048 /* libPods.a */; };
+		EDC6DD4A1941E28F00AA03EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC6DD491941E28F00AA03EE /* Foundation.framework */; };
+		EDC6DD4C1941E28F00AA03EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC6DD4B1941E28F00AA03EE /* CoreGraphics.framework */; };
+		EDC6DD4E1941E28F00AA03EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC6DD4D1941E28F00AA03EE /* UIKit.framework */; };
+		EDC6DD541941E28F00AA03EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC6DD521941E28F00AA03EE /* InfoPlist.strings */; };
+		EDC6DD561941E28F00AA03EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD551941E28F00AA03EE /* main.m */; };
+		EDC6DD5A1941E28F00AA03EE /* NVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD591941E28F00AA03EE /* NVAppDelegate.m */; };
+		EDC6DD5D1941E28F00AA03EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC6DD5B1941E28F00AA03EE /* Main.storyboard */; };
+		EDC6DD601941E28F00AA03EE /* NVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD5F1941E28F00AA03EE /* NVViewController.m */; };
+		EDC6DD621941E28F00AA03EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC6DD611941E28F00AA03EE /* Images.xcassets */; };
+		EDC6DD691941E28F00AA03EE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC6DD681941E28F00AA03EE /* XCTest.framework */; };
+		EDC6DD6A1941E28F00AA03EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC6DD491941E28F00AA03EE /* Foundation.framework */; };
+		EDC6DD6B1941E28F00AA03EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC6DD4D1941E28F00AA03EE /* UIKit.framework */; };
+		EDC6DD731941E28F00AA03EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC6DD711941E28F00AA03EE /* InfoPlist.strings */; };
+		EDC6DD751941E28F00AA03EE /* NavajoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD741941E28F00AA03EE /* NavajoTests.m */; };
+		EDC6DDC0194408D400AA03EE /* Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD83194408D400AA03EE /* Authentication.m */; };
+		EDC6DDC1194408D400AA03EE /* BasicAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD85194408D400AA03EE /* BasicAuthentication.m */; };
+		EDC6DDC2194408D400AA03EE /* HeaderAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD87194408D400AA03EE /* HeaderAuthentication.m */; };
+		EDC6DDC3194408D400AA03EE /* MashapeAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD89194408D400AA03EE /* MashapeAuthentication.m */; };
+		EDC6DDC4194408D400AA03EE /* OAuth10aAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD8B194408D400AA03EE /* OAuth10aAuthentication.m */; };
+		EDC6DDC5194408D400AA03EE /* OAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD8D194408D400AA03EE /* OAuth2Authentication.m */; };
+		EDC6DDC6194408D400AA03EE /* OAuthAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD8F194408D400AA03EE /* OAuthAuthentication.m */; };
+		EDC6DDC7194408D400AA03EE /* QueryAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD91194408D400AA03EE /* QueryAuthentication.m */; };
+		EDC6DDC8194408D400AA03EE /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD94194408D400AA03EE /* Base64.m */; };
+		EDC6DDC9194408D400AA03EE /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD96194408D400AA03EE /* HttpClient.m */; };
+		EDC6DDCA194408D400AA03EE /* HttpUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD98194408D400AA03EE /* HttpUtils.m */; };
+		EDC6DDCB194408D400AA03EE /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD9B194408D400AA03EE /* NSObject+SBJson.m */; };
+		EDC6DDCC194408D400AA03EE /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DD9E194408D400AA03EE /* SBJsonParser.m */; };
+		EDC6DDCD194408D400AA03EE /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDA0194408D400AA03EE /* SBJsonStreamParser.m */; };
+		EDC6DDCE194408D400AA03EE /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDA2194408D400AA03EE /* SBJsonStreamParserAccumulator.m */; };
+		EDC6DDCF194408D400AA03EE /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDA4194408D400AA03EE /* SBJsonStreamParserAdapter.m */; };
+		EDC6DDD0194408D400AA03EE /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDA6194408D400AA03EE /* SBJsonStreamParserState.m */; };
+		EDC6DDD1194408D400AA03EE /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDA8194408D400AA03EE /* SBJsonStreamWriter.m */; };
+		EDC6DDD2194408D400AA03EE /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDAA194408D400AA03EE /* SBJsonStreamWriterAccumulator.m */; };
+		EDC6DDD3194408D400AA03EE /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDAC194408D400AA03EE /* SBJsonStreamWriterState.m */; };
+		EDC6DDD4194408D400AA03EE /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDAE194408D400AA03EE /* SBJsonTokeniser.m */; };
+		EDC6DDD5194408D400AA03EE /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDB0194408D400AA03EE /* SBJsonUTF8Stream.m */; };
+		EDC6DDD6194408D400AA03EE /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDB2194408D400AA03EE /* SBJsonWriter.m */; };
+		EDC6DDD7194408D400AA03EE /* MashapeBinaryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDB7194408D400AA03EE /* MashapeBinaryResponse.m */; };
+		EDC6DDD8194408D400AA03EE /* MashapeJsonArrayResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDB9194408D400AA03EE /* MashapeJsonArrayResponse.m */; };
+		EDC6DDD9194408D400AA03EE /* MashapeJsonObjectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDBB194408D400AA03EE /* MashapeJsonObjectResponse.m */; };
+		EDC6DDDA194408D400AA03EE /* MashapeResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDBD194408D400AA03EE /* MashapeResponse.m */; };
+		EDC6DDDB194408D400AA03EE /* MashapeStringResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC6DDBF194408D400AA03EE /* MashapeStringResponse.m */; };
+		EDC6DDE519440AA600AA03EE /* libQuquerSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC6DDDE19440AA600AA03EE /* libQuquerSDK.a */; };
+		EDC6DDE619440AA600AA03EE /* libQuquerSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC6DDE019440AA600AA03EE /* libQuquerSDK.a */; };
+		EDC6DDE719440AA600AA03EE /* libQuquerSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC6DDE219440AA600AA03EE /* libQuquerSDK.a */; };
+		EDC6DDE819440AA600AA03EE /* libQuquerSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC6DDE419440AA600AA03EE /* libQuquerSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDC6DD6C1941E28F00AA03EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC6DD3E1941E28F00AA03EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC6DD451941E28F00AA03EE;
+			remoteInfo = Navajo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F60E6B58D8B46CCB055F048 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC6DD461941E28F00AA03EE /* Navajo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navajo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC6DD491941E28F00AA03EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EDC6DD4B1941E28F00AA03EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EDC6DD4D1941E28F00AA03EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EDC6DD511941E28F00AA03EE /* Navajo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Navajo-Info.plist"; sourceTree = "<group>"; };
+		EDC6DD531941E28F00AA03EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDC6DD551941E28F00AA03EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDC6DD571941E28F00AA03EE /* Navajo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Navajo-Prefix.pch"; sourceTree = "<group>"; };
+		EDC6DD581941E28F00AA03EE /* NVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVAppDelegate.h; sourceTree = "<group>"; };
+		EDC6DD591941E28F00AA03EE /* NVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVAppDelegate.m; sourceTree = "<group>"; };
+		EDC6DD5C1941E28F00AA03EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC6DD5E1941E28F00AA03EE /* NVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVViewController.h; sourceTree = "<group>"; };
+		EDC6DD5F1941E28F00AA03EE /* NVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVViewController.m; sourceTree = "<group>"; };
+		EDC6DD611941E28F00AA03EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDC6DD671941E28F00AA03EE /* NavajoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavajoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC6DD681941E28F00AA03EE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EDC6DD701941E28F00AA03EE /* NavajoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavajoTests-Info.plist"; sourceTree = "<group>"; };
+		EDC6DD721941E28F00AA03EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EDC6DD741941E28F00AA03EE /* NavajoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavajoTests.m; sourceTree = "<group>"; };
+		EDC6DD82194408D400AA03EE /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
+		EDC6DD83194408D400AA03EE /* Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authentication.m; sourceTree = "<group>"; };
+		EDC6DD84194408D400AA03EE /* BasicAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAuthentication.h; sourceTree = "<group>"; };
+		EDC6DD85194408D400AA03EE /* BasicAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAuthentication.m; sourceTree = "<group>"; };
+		EDC6DD86194408D400AA03EE /* HeaderAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderAuthentication.h; sourceTree = "<group>"; };
+		EDC6DD87194408D400AA03EE /* HeaderAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderAuthentication.m; sourceTree = "<group>"; };
+		EDC6DD88194408D400AA03EE /* MashapeAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MashapeAuthentication.h; sourceTree = "<group>"; };
+		EDC6DD89194408D400AA03EE /* MashapeAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MashapeAuthentication.m; sourceTree = "<group>"; };
+		EDC6DD8A194408D400AA03EE /* OAuth10aAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuth10aAuthentication.h; sourceTree = "<group>"; };
+		EDC6DD8B194408D400AA03EE /* OAuth10aAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuth10aAuthentication.m; sourceTree = "<group>"; };
+		EDC6DD8C194408D400AA03EE /* OAuth2Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuth2Authentication.h; sourceTree = "<group>"; };
+		EDC6DD8D194408D400AA03EE /* OAuth2Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuth2Authentication.m; sourceTree = "<group>"; };
+		EDC6DD8E194408D400AA03EE /* OAuthAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthAuthentication.h; sourceTree = "<group>"; };
+		EDC6DD8F194408D400AA03EE /* OAuthAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthAuthentication.m; sourceTree = "<group>"; };
+		EDC6DD90194408D400AA03EE /* QueryAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueryAuthentication.h; sourceTree = "<group>"; };
+		EDC6DD91194408D400AA03EE /* QueryAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueryAuthentication.m; sourceTree = "<group>"; };
+		EDC6DD93194408D400AA03EE /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		EDC6DD94194408D400AA03EE /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		EDC6DD95194408D400AA03EE /* HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
+		EDC6DD96194408D400AA03EE /* HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
+		EDC6DD97194408D400AA03EE /* HttpUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpUtils.h; sourceTree = "<group>"; };
+		EDC6DD98194408D400AA03EE /* HttpUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpUtils.m; sourceTree = "<group>"; };
+		EDC6DD9A194408D400AA03EE /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		EDC6DD9B194408D400AA03EE /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		EDC6DD9C194408D400AA03EE /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		EDC6DD9D194408D400AA03EE /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		EDC6DD9E194408D400AA03EE /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		EDC6DD9F194408D400AA03EE /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		EDC6DDA0194408D400AA03EE /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		EDC6DDA1194408D400AA03EE /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		EDC6DDA2194408D400AA03EE /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		EDC6DDA3194408D400AA03EE /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		EDC6DDA4194408D400AA03EE /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		EDC6DDA5194408D400AA03EE /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		EDC6DDA6194408D400AA03EE /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		EDC6DDA7194408D400AA03EE /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		EDC6DDA8194408D400AA03EE /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		EDC6DDA9194408D400AA03EE /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		EDC6DDAA194408D400AA03EE /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		EDC6DDAB194408D400AA03EE /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		EDC6DDAC194408D400AA03EE /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		EDC6DDAD194408D400AA03EE /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		EDC6DDAE194408D400AA03EE /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		EDC6DDAF194408D400AA03EE /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		EDC6DDB0194408D400AA03EE /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		EDC6DDB1194408D400AA03EE /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		EDC6DDB2194408D400AA03EE /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		EDC6DDB3194408D400AA03EE /* Mashape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mashape.h; sourceTree = "<group>"; };
+		EDC6DDB4194408D400AA03EE /* MashapeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MashapeDelegate.h; sourceTree = "<group>"; };
+		EDC6DDB6194408D400AA03EE /* MashapeBinaryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MashapeBinaryResponse.h; sourceTree = "<group>"; };
+		EDC6DDB7194408D400AA03EE /* MashapeBinaryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MashapeBinaryResponse.m; sourceTree = "<group>"; };
+		EDC6DDB8194408D400AA03EE /* MashapeJsonArrayResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MashapeJsonArrayResponse.h; sourceTree = "<group>"; };
+		EDC6DDB9194408D400AA03EE /* MashapeJsonArrayResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MashapeJsonArrayResponse.m; sourceTree = "<group>"; };
+		EDC6DDBA194408D400AA03EE /* MashapeJsonObjectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MashapeJsonObjectResponse.h; sourceTree = "<group>"; };
+		EDC6DDBB194408D400AA03EE /* MashapeJsonObjectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MashapeJsonObjectResponse.m; sourceTree = "<group>"; };
+		EDC6DDBC194408D400AA03EE /* MashapeResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MashapeResponse.h; sourceTree = "<group>"; };
+		EDC6DDBD194408D400AA03EE /* MashapeResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MashapeResponse.m; sourceTree = "<group>"; };
+		EDC6DDBE194408D400AA03EE /* MashapeStringResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MashapeStringResponse.h; sourceTree = "<group>"; };
+		EDC6DDBF194408D400AA03EE /* MashapeStringResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MashapeStringResponse.m; sourceTree = "<group>"; };
+		EDC6DDDE19440AA600AA03EE /* libQuquerSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuquerSDK.a; sourceTree = "<group>"; };
+		EDC6DDE019440AA600AA03EE /* libQuquerSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuquerSDK.a; sourceTree = "<group>"; };
+		EDC6DDE219440AA600AA03EE /* libQuquerSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuquerSDK.a; sourceTree = "<group>"; };
+		EDC6DDE419440AA600AA03EE /* libQuquerSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuquerSDK.a; sourceTree = "<group>"; };
+		EDC6DDEA19440B6D00AA03EE /* QuquerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuquerService.h; sourceTree = "<group>"; };
+		F0B2FDA46E8F419880D3E826 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC6DD431941E28F00AA03EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC6DD4C1941E28F00AA03EE /* CoreGraphics.framework in Frameworks */,
+				EDC6DDE819440AA600AA03EE /* libQuquerSDK.a in Frameworks */,
+				EDC6DD4E1941E28F00AA03EE /* UIKit.framework in Frameworks */,
+				EDC6DD4A1941E28F00AA03EE /* Foundation.framework in Frameworks */,
+				EDC6DDE519440AA600AA03EE /* libQuquerSDK.a in Frameworks */,
+				0B67F51AFB1A4862A599B2FB /* libPods.a in Frameworks */,
+				EDC6DDE719440AA600AA03EE /* libQuquerSDK.a in Frameworks */,
+				EDC6DDE619440AA600AA03EE /* libQuquerSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC6DD641941E28F00AA03EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC6DD691941E28F00AA03EE /* XCTest.framework in Frameworks */,
+				EDC6DD6B1941E28F00AA03EE /* UIKit.framework in Frameworks */,
+				EDC6DD6A1941E28F00AA03EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC6DD3D1941E28F00AA03EE = {
+			isa = PBXGroup;
+			children = (
+				EDC6DD4F1941E28F00AA03EE /* Navajo */,
+				EDC6DD6E1941E28F00AA03EE /* NavajoTests */,
+				EDC6DD481941E28F00AA03EE /* Frameworks */,
+				EDC6DD471941E28F00AA03EE /* Products */,
+				F0B2FDA46E8F419880D3E826 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC6DD471941E28F00AA03EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DD461941E28F00AA03EE /* Navajo.app */,
+				EDC6DD671941E28F00AA03EE /* NavajoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC6DD481941E28F00AA03EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DD7E1944084100AA03EE /* Ququer */,
+				EDC6DD491941E28F00AA03EE /* Foundation.framework */,
+				EDC6DD4B1941E28F00AA03EE /* CoreGraphics.framework */,
+				EDC6DD4D1941E28F00AA03EE /* UIKit.framework */,
+				EDC6DD681941E28F00AA03EE /* XCTest.framework */,
+				1F60E6B58D8B46CCB055F048 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDC6DD4F1941E28F00AA03EE /* Navajo */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DD80194408D400AA03EE /* Mashape */,
+				EDC6DD581941E28F00AA03EE /* NVAppDelegate.h */,
+				EDC6DD591941E28F00AA03EE /* NVAppDelegate.m */,
+				EDC6DD5B1941E28F00AA03EE /* Main.storyboard */,
+				EDC6DD5E1941E28F00AA03EE /* NVViewController.h */,
+				EDC6DD5F1941E28F00AA03EE /* NVViewController.m */,
+				EDC6DD611941E28F00AA03EE /* Images.xcassets */,
+				EDC6DD501941E28F00AA03EE /* Supporting Files */,
+			);
+			path = Navajo;
+			sourceTree = "<group>";
+		};
+		EDC6DD501941E28F00AA03EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DD511941E28F00AA03EE /* Navajo-Info.plist */,
+				EDC6DD521941E28F00AA03EE /* InfoPlist.strings */,
+				EDC6DD551941E28F00AA03EE /* main.m */,
+				EDC6DD571941E28F00AA03EE /* Navajo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDC6DD6E1941E28F00AA03EE /* NavajoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DD741941E28F00AA03EE /* NavajoTests.m */,
+				EDC6DD6F1941E28F00AA03EE /* Supporting Files */,
+			);
+			path = NavajoTests;
+			sourceTree = "<group>";
+		};
+		EDC6DD6F1941E28F00AA03EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DD701941E28F00AA03EE /* NavajoTests-Info.plist */,
+				EDC6DD711941E28F00AA03EE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDC6DD7E1944084100AA03EE /* Ququer */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DDE919440B6D00AA03EE /* include */,
+				EDC6DDDC19440AA600AA03EE /* libs */,
+			);
+			name = Ququer;
+			path = Navajo;
+			sourceTree = "<group>";
+		};
+		EDC6DD80194408D400AA03EE /* Mashape */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DD81194408D400AA03EE /* Authentication */,
+				EDC6DD95194408D400AA03EE /* HttpClient.h */,
+				EDC6DD96194408D400AA03EE /* HttpClient.m */,
+				EDC6DD97194408D400AA03EE /* HttpUtils.h */,
+				EDC6DD98194408D400AA03EE /* HttpUtils.m */,
+				EDC6DD99194408D400AA03EE /* JSON */,
+				EDC6DDB3194408D400AA03EE /* Mashape.h */,
+				EDC6DDB4194408D400AA03EE /* MashapeDelegate.h */,
+				EDC6DDB5194408D400AA03EE /* Response */,
+			);
+			path = Mashape;
+			sourceTree = "<group>";
+		};
+		EDC6DD81194408D400AA03EE /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DD82194408D400AA03EE /* Authentication.h */,
+				EDC6DD83194408D400AA03EE /* Authentication.m */,
+				EDC6DD84194408D400AA03EE /* BasicAuthentication.h */,
+				EDC6DD85194408D400AA03EE /* BasicAuthentication.m */,
+				EDC6DD86194408D400AA03EE /* HeaderAuthentication.h */,
+				EDC6DD87194408D400AA03EE /* HeaderAuthentication.m */,
+				EDC6DD88194408D400AA03EE /* MashapeAuthentication.h */,
+				EDC6DD89194408D400AA03EE /* MashapeAuthentication.m */,
+				EDC6DD8A194408D400AA03EE /* OAuth10aAuthentication.h */,
+				EDC6DD8B194408D400AA03EE /* OAuth10aAuthentication.m */,
+				EDC6DD8C194408D400AA03EE /* OAuth2Authentication.h */,
+				EDC6DD8D194408D400AA03EE /* OAuth2Authentication.m */,
+				EDC6DD8E194408D400AA03EE /* OAuthAuthentication.h */,
+				EDC6DD8F194408D400AA03EE /* OAuthAuthentication.m */,
+				EDC6DD90194408D400AA03EE /* QueryAuthentication.h */,
+				EDC6DD91194408D400AA03EE /* QueryAuthentication.m */,
+				EDC6DD92194408D400AA03EE /* Utils */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		EDC6DD92194408D400AA03EE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DD93194408D400AA03EE /* Base64.h */,
+				EDC6DD94194408D400AA03EE /* Base64.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EDC6DD99194408D400AA03EE /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DD9A194408D400AA03EE /* NSObject+SBJson.h */,
+				EDC6DD9B194408D400AA03EE /* NSObject+SBJson.m */,
+				EDC6DD9C194408D400AA03EE /* SBJson.h */,
+				EDC6DD9D194408D400AA03EE /* SBJsonParser.h */,
+				EDC6DD9E194408D400AA03EE /* SBJsonParser.m */,
+				EDC6DD9F194408D400AA03EE /* SBJsonStreamParser.h */,
+				EDC6DDA0194408D400AA03EE /* SBJsonStreamParser.m */,
+				EDC6DDA1194408D400AA03EE /* SBJsonStreamParserAccumulator.h */,
+				EDC6DDA2194408D400AA03EE /* SBJsonStreamParserAccumulator.m */,
+				EDC6DDA3194408D400AA03EE /* SBJsonStreamParserAdapter.h */,
+				EDC6DDA4194408D400AA03EE /* SBJsonStreamParserAdapter.m */,
+				EDC6DDA5194408D400AA03EE /* SBJsonStreamParserState.h */,
+				EDC6DDA6194408D400AA03EE /* SBJsonStreamParserState.m */,
+				EDC6DDA7194408D400AA03EE /* SBJsonStreamWriter.h */,
+				EDC6DDA8194408D400AA03EE /* SBJsonStreamWriter.m */,
+				EDC6DDA9194408D400AA03EE /* SBJsonStreamWriterAccumulator.h */,
+				EDC6DDAA194408D400AA03EE /* SBJsonStreamWriterAccumulator.m */,
+				EDC6DDAB194408D400AA03EE /* SBJsonStreamWriterState.h */,
+				EDC6DDAC194408D400AA03EE /* SBJsonStreamWriterState.m */,
+				EDC6DDAD194408D400AA03EE /* SBJsonTokeniser.h */,
+				EDC6DDAE194408D400AA03EE /* SBJsonTokeniser.m */,
+				EDC6DDAF194408D400AA03EE /* SBJsonUTF8Stream.h */,
+				EDC6DDB0194408D400AA03EE /* SBJsonUTF8Stream.m */,
+				EDC6DDB1194408D400AA03EE /* SBJsonWriter.h */,
+				EDC6DDB2194408D400AA03EE /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		EDC6DDB5194408D400AA03EE /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DDB6194408D400AA03EE /* MashapeBinaryResponse.h */,
+				EDC6DDB7194408D400AA03EE /* MashapeBinaryResponse.m */,
+				EDC6DDB8194408D400AA03EE /* MashapeJsonArrayResponse.h */,
+				EDC6DDB9194408D400AA03EE /* MashapeJsonArrayResponse.m */,
+				EDC6DDBA194408D400AA03EE /* MashapeJsonObjectResponse.h */,
+				EDC6DDBB194408D400AA03EE /* MashapeJsonObjectResponse.m */,
+				EDC6DDBC194408D400AA03EE /* MashapeResponse.h */,
+				EDC6DDBD194408D400AA03EE /* MashapeResponse.m */,
+				EDC6DDBE194408D400AA03EE /* MashapeStringResponse.h */,
+				EDC6DDBF194408D400AA03EE /* MashapeStringResponse.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		EDC6DDDC19440AA600AA03EE /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DDDD19440AA600AA03EE /* Debug-iphoneos */,
+				EDC6DDDF19440AA600AA03EE /* Debug-iphonesimulator */,
+				EDC6DDE119440AA600AA03EE /* Release-iphoneos */,
+				EDC6DDE319440AA600AA03EE /* Release-iphonesimulator */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		EDC6DDDD19440AA600AA03EE /* Debug-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DDDE19440AA600AA03EE /* libQuquerSDK.a */,
+			);
+			path = "Debug-iphoneos";
+			sourceTree = "<group>";
+		};
+		EDC6DDDF19440AA600AA03EE /* Debug-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DDE019440AA600AA03EE /* libQuquerSDK.a */,
+			);
+			path = "Debug-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		EDC6DDE119440AA600AA03EE /* Release-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DDE219440AA600AA03EE /* libQuquerSDK.a */,
+			);
+			path = "Release-iphoneos";
+			sourceTree = "<group>";
+		};
+		EDC6DDE319440AA600AA03EE /* Release-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DDE419440AA600AA03EE /* libQuquerSDK.a */,
+			);
+			path = "Release-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		EDC6DDE919440B6D00AA03EE /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EDC6DDEA19440B6D00AA03EE /* QuquerService.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC6DD451941E28F00AA03EE /* Navajo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC6DD781941E28F00AA03EE /* Build configuration list for PBXNativeTarget "Navajo" */;
+			buildPhases = (
+				78749E40B15B4B26BC87634D /* Check Pods Manifest.lock */,
+				EDC6DD421941E28F00AA03EE /* Sources */,
+				EDC6DD431941E28F00AA03EE /* Frameworks */,
+				EDC6DD441941E28F00AA03EE /* Resources */,
+				D89CAA5AFF0544B7A16E667C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Navajo;
+			productName = Navajo;
+			productReference = EDC6DD461941E28F00AA03EE /* Navajo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC6DD661941E28F00AA03EE /* NavajoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC6DD7B1941E28F00AA03EE /* Build configuration list for PBXNativeTarget "NavajoTests" */;
+			buildPhases = (
+				EDC6DD631941E28F00AA03EE /* Sources */,
+				EDC6DD641941E28F00AA03EE /* Frameworks */,
+				EDC6DD651941E28F00AA03EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC6DD6D1941E28F00AA03EE /* PBXTargetDependency */,
+			);
+			name = NavajoTests;
+			productName = NavajoTests;
+			productReference = EDC6DD671941E28F00AA03EE /* NavajoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC6DD3E1941E28F00AA03EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = weiwei;
+				TargetAttributes = {
+					EDC6DD661941E28F00AA03EE = {
+						TestTargetID = EDC6DD451941E28F00AA03EE;
+					};
+				};
+			};
+			buildConfigurationList = EDC6DD411941E28F00AA03EE /* Build configuration list for PBXProject "Navajo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC6DD3D1941E28F00AA03EE;
+			productRefGroup = EDC6DD471941E28F00AA03EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC6DD451941E28F00AA03EE /* Navajo */,
+				EDC6DD661941E28F00AA03EE /* NavajoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC6DD441941E28F00AA03EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC6DD621941E28F00AA03EE /* Images.xcassets in Resources */,
+				EDC6DD541941E28F00AA03EE /* InfoPlist.strings in Resources */,
+				EDC6DD5D1941E28F00AA03EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC6DD651941E28F00AA03EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC6DD731941E28F00AA03EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78749E40B15B4B26BC87634D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D89CAA5AFF0544B7A16E667C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC6DD421941E28F00AA03EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC6DDC1194408D400AA03EE /* BasicAuthentication.m in Sources */,
+				EDC6DDD6194408D400AA03EE /* SBJsonWriter.m in Sources */,
+				EDC6DDC6194408D400AA03EE /* OAuthAuthentication.m in Sources */,
+				EDC6DDCE194408D400AA03EE /* SBJsonStreamParserAccumulator.m in Sources */,
+				EDC6DD601941E28F00AA03EE /* NVViewController.m in Sources */,
+				EDC6DDD1194408D400AA03EE /* SBJsonStreamWriter.m in Sources */,
+				EDC6DDCA194408D400AA03EE /* HttpUtils.m in Sources */,
+				EDC6DDCF194408D400AA03EE /* SBJsonStreamParserAdapter.m in Sources */,
+				EDC6DDC2194408D400AA03EE /* HeaderAuthentication.m in Sources */,
+				EDC6DDD2194408D400AA03EE /* SBJsonStreamWriterAccumulator.m in Sources */,
+				EDC6DDCC194408D400AA03EE /* SBJsonParser.m in Sources */,
+				EDC6DDDB194408D400AA03EE /* MashapeStringResponse.m in Sources */,
+				EDC6DDC8194408D400AA03EE /* Base64.m in Sources */,
+				EDC6DDD3194408D400AA03EE /* SBJsonStreamWriterState.m in Sources */,
+				EDC6DDC5194408D400AA03EE /* OAuth2Authentication.m in Sources */,
+				EDC6DDCD194408D400AA03EE /* SBJsonStreamParser.m in Sources */,
+				EDC6DD5A1941E28F00AA03EE /* NVAppDelegate.m in Sources */,
+				EDC6DDD8194408D400AA03EE /* MashapeJsonArrayResponse.m in Sources */,
+				EDC6DD561941E28F00AA03EE /* main.m in Sources */,
+				EDC6DDDA194408D400AA03EE /* MashapeResponse.m in Sources */,
+				EDC6DDD9194408D400AA03EE /* MashapeJsonObjectResponse.m in Sources */,
+				EDC6DDD0194408D400AA03EE /* SBJsonStreamParserState.m in Sources */,
+				EDC6DDC7194408D400AA03EE /* QueryAuthentication.m in Sources */,
+				EDC6DDC0194408D400AA03EE /* Authentication.m in Sources */,
+				EDC6DDC4194408D400AA03EE /* OAuth10aAuthentication.m in Sources */,
+				EDC6DDC9194408D400AA03EE /* HttpClient.m in Sources */,
+				EDC6DDCB194408D400AA03EE /* NSObject+SBJson.m in Sources */,
+				EDC6DDC3194408D400AA03EE /* MashapeAuthentication.m in Sources */,
+				EDC6DDD5194408D400AA03EE /* SBJsonUTF8Stream.m in Sources */,
+				EDC6DDD7194408D400AA03EE /* MashapeBinaryResponse.m in Sources */,
+				EDC6DDD4194408D400AA03EE /* SBJsonTokeniser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC6DD631941E28F00AA03EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC6DD751941E28F00AA03EE /* NavajoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDC6DD6D1941E28F00AA03EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC6DD451941E28F00AA03EE /* Navajo */;
+			targetProxy = EDC6DD6C1941E28F00AA03EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDC6DD521941E28F00AA03EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC6DD531941E28F00AA03EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EDC6DD5B1941E28F00AA03EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC6DD5C1941E28F00AA03EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC6DD711941E28F00AA03EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC6DD721941E28F00AA03EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC6DD761941E28F00AA03EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDC6DD771941E28F00AA03EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC6DD791941E28F00AA03EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B2FDA46E8F419880D3E826 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Navajo/Navajo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/../include\"",
+				);
+				INFOPLIST_FILE = "Navajo/Navajo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Navajo/libs/Debug-iphoneos",
+					"$(PROJECT_DIR)/Navajo/libs/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/Navajo/libs/Release-iphoneos",
+					"$(PROJECT_DIR)/Navajo/libs/Release-iphonesimulator",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EDC6DD7A1941E28F00AA03EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B2FDA46E8F419880D3E826 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Navajo/Navajo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/AFNetworking\"",
+					"\"${PODS_ROOT}/../include\"",
+				);
+				INFOPLIST_FILE = "Navajo/Navajo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Navajo/libs/Debug-iphoneos",
+					"$(PROJECT_DIR)/Navajo/libs/Debug-iphonesimulator",
+					"$(PROJECT_DIR)/Navajo/libs/Release-iphoneos",
+					"$(PROJECT_DIR)/Navajo/libs/Release-iphonesimulator",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EDC6DD7C1941E28F00AA03EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Navajo.app/Navajo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Navajo/Navajo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NavajoTests/NavajoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EDC6DD7D1941E28F00AA03EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Navajo.app/Navajo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Navajo/Navajo-Prefix.pch";
+				INFOPLIST_FILE = "NavajoTests/NavajoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC6DD411941E28F00AA03EE /* Build configuration list for PBXProject "Navajo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC6DD761941E28F00AA03EE /* Debug */,
+				EDC6DD771941E28F00AA03EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC6DD781941E28F00AA03EE /* Build configuration list for PBXNativeTarget "Navajo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC6DD791941E28F00AA03EE /* Debug */,
+				EDC6DD7A1941E28F00AA03EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC6DD7B1941E28F00AA03EE /* Build configuration list for PBXNativeTarget "NavajoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC6DD7C1941E28F00AA03EE /* Debug */,
+				EDC6DD7D1941E28F00AA03EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC6DD3E1941E28F00AA03EE /* Project object */;
+}
